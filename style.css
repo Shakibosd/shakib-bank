@@ -1,0 +1,47 @@
+/*Login Area*/
+body {
+    padding: 100px;
+    background: rgb(101, 96, 96) !important;
+}
+
+.submit-area {
+    padding: 100px;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 23px lightblue;
+}
+
+/*Login Area*/
+
+
+
+/*Transaction Area*/
+#Transaction-Area {
+    display: none;
+}
+
+.Status {
+    margin: 0 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Deposit {
+    background-color: slateblue;
+}
+
+.Withdraw {
+    background-color: lightsalmon;
+}
+
+.Balance {
+    background-color: orange;
+}
+
+#fjdkh {
+    color: white;
+}
+
+/*Transaction Area*/

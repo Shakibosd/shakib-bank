@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta carecture-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank</title>
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobil.css">
+    <!--logo images-->
+    <link rel="shortcut icon" href="images/shakib.jpg" type="image/x-icon" />
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!--Login Area-->
+    <div id="login-area">
+        <h1 id="fjdkh" class="text-center">Welcome To Shakib Bank</h1>
+        <div class="submit-area">
+            <h4 id="fjdkh">Login</h4>
+            <input type="text" class="form-control" placeholder="Email" />
+            <br />
+            <input type="password" class="form-control" placeholder="Password" />
+            <br />
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+    <!--Login Area-->
+
+    <!--Transaction Area-->
+    <div id="Transaction-Area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="Deposit Status">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="currentDeposit">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Withdraw Status">
+                    <h5>Withdraw</h5>
+                    <h2>$ <span id="currentWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="Balance Status">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="currentBalance">36</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4 id="fjdkh">Deposit</h4>
+                    <input id="depositAmount" type="text" class="form-control"
+                        placeholder="$ Amount You Want To Deposit" />
+                    <br />
+                    <button id="addDeposit" class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4 id="fjdkh">Withdraw</h4>
+                    <input id="withdrawAmount" type="text" class="form-control"
+                        placeholder="$ Amount You Want To Withdraw" />
+                    <br />
+                    <button id="addWithdraw" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Transaction Area-->
+
+    <!--Script Area-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <!--Script Area-->
+</body>
+
+</html>
